@@ -33,5 +33,4 @@ HEADERS  += asistencia.h \
 FORMS    += asistencia.ui \
     configuracion.ui
 
-RESOURCES += \
-    botonera.qrc
+RESOURCES +=

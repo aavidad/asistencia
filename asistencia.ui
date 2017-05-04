@@ -47,6 +47,9 @@
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="QTabWidget" name="Libro">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
          <widget class="QWidget" name="Hoja1">
           <attribute name="title">
            <string>Tab 1</string>
@@ -70,7 +73,7 @@
      <x>0</x>
      <y>0</y>
      <width>885</width>
-     <height>31</height>
+     <height>19</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
@@ -186,7 +189,7 @@
   <action name="actionCronos">
    <property name="icon">
     <iconset>
-     <normaloff>Imagenes/beiro55.png</normaloff>Imagenes/beiro55.png</iconset>
+     <normaloff>glpi.png</normaloff>glpi.png</iconset>
    </property>
    <property name="text">
     <string>Cronos</string>
@@ -198,7 +201,7 @@
   <action name="actionBeiro">
    <property name="icon">
     <iconset>
-     <normaloff>Imagenes/beiro_cartera.png</normaloff>Imagenes/beiro_cartera.png</iconset>
+     <normaloff>beiro_cartera.png</normaloff>beiro_cartera.png</iconset>
    </property>
    <property name="text">
     <string>Beiro</string>
@@ -210,7 +213,7 @@
   <action name="actionGlpi">
    <property name="icon">
     <iconset>
-     <normaloff>Imagenes/glpi.png</normaloff>Imagenes/glpi.png</iconset>
+     <normaloff>glpi.png</normaloff>glpi.png</iconset>
    </property>
    <property name="text">
     <string>Glpi</string>
@@ -222,7 +225,7 @@
   <action name="actionActive_Directory">
    <property name="icon">
     <iconset>
-     <normaloff>Imagenes/AD.png</normaloff>Imagenes/AD.png</iconset>
+     <normaloff>AD.png</normaloff>AD.png</iconset>
    </property>
    <property name="text">
     <string>Active Directory</string>
@@ -234,7 +237,7 @@
   <action name="actionWebmail">
    <property name="icon">
     <iconset>
-     <normaloff>Imagenes/beiro_cartera.png</normaloff>Imagenes/beiro_cartera.png</iconset>
+     <normaloff>asistencia.png</normaloff>asistencia.png</iconset>
    </property>
    <property name="text">
     <string>Webmail</string>
