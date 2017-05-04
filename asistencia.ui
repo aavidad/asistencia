@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Asistencia</class>
+ <widget class="QMainWindow" name="Asistencia">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>885</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>STIXVariants</family>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Asistencia</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QTabWidget" name="Libro">
+         <widget class="QWidget" name="Hoja1">
+          <attribute name="title">
+           <string>Tab 1</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="Hoja2">
+          <attribute name="title">
+           <string>Tab 2</string>
+          </attribute>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>885</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionAbrir_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionCerrar"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionConfigurar"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAcerca_de"/>
+    <addaction name="separator"/>
+    <addaction name="actionManual_de_Asistencia"/>
+   </widget>
+   <widget class="QMenu" name="menuAplicaciones">
+    <property name="title">
+     <string>Aplicaciones</string>
+    </property>
+    <addaction name="actionISLOnline"/>
+    <addaction name="actionCronos"/>
+    <addaction name="actionBeiro"/>
+    <addaction name="actionGlpi"/>
+    <addaction name="actionActive_Directory"/>
+    <addaction name="actionWebmail"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuAyuda"/>
+   <addaction name="menuAplicaciones"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionWebmail"/>
+   <addaction name="actionActive_Directory"/>
+   <addaction name="actionGlpi"/>
+   <addaction name="actionBeiro"/>
+   <addaction name="actionCronos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionAbrir_2">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionCerrar">
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="text">
+    <string>Acerca de...</string>
+   </property>
+  </action>
+  <action name="actionManual_de_Asistencia">
+   <property name="text">
+    <string>Manual</string>
+   </property>
+  </action>
+  <action name="actionISLOnline">
+   <property name="text">
+    <string>ISLOnline</string>
+   </property>
+  </action>
+  <action name="actionCronos">
+   <property name="icon">
+    <iconset>
+     <normaloff>Imagenes/beiro55.png</normaloff>Imagenes/beiro55.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cronos</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionBeiro">
+   <property name="icon">
+    <iconset>
+     <normaloff>Imagenes/beiro_cartera.png</normaloff>Imagenes/beiro_cartera.png</iconset>
+   </property>
+   <property name="text">
+    <string>Beiro</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionGlpi">
+   <property name="icon">
+    <iconset>
+     <normaloff>Imagenes/glpi.png</normaloff>Imagenes/glpi.png</iconset>
+   </property>
+   <property name="text">
+    <string>Glpi</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionActive_Directory">
+   <property name="icon">
+    <iconset>
+     <normaloff>Imagenes/AD.png</normaloff>Imagenes/AD.png</iconset>
+   </property>
+   <property name="text">
+    <string>Active Directory</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionWebmail">
+   <property name="icon">
+    <iconset>
+     <normaloff>Imagenes/beiro_cartera.png</normaloff>Imagenes/beiro_cartera.png</iconset>
+   </property>
+   <property name="text">
+    <string>Webmail</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionConfigurar">
+   <property name="text">
+    <string>Configurar</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionCerrar</sender>
+   <signal>triggered()</signal>
+   <receiver>Asistencia</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

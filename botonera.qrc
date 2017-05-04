@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Botonera">
+        <file>Imagenes/AD.png</file>
+        <file>Imagenes/asistencia.png</file>
+        <file>Imagenes/beiro_cartera.png</file>
+        <file>Imagenes/beiro55.png</file>
+        <file>Imagenes/glpi.png</file>
+    </qresource>
+</RCC>
