@@ -48,7 +48,7 @@
        <item>
         <widget class="QTabWidget" name="Libro">
          <property name="currentIndex">
-          <number>0</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="Hoja1">
           <attribute name="title">
@@ -73,7 +73,7 @@
      <x>0</x>
      <y>0</y>
      <width>885</width>
-     <height>19</height>
+     <height>31</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">

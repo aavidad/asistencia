@@ -22,6 +22,8 @@ private slots:
 
     void on_actionGlpi_triggered();
 
+    void on_actionISLOnline_triggered();
+
 private:
     Ui::Asistencia *ui;
 };

@@ -4,8 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui webenginewidgets
-
+QT       += core gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Asistencia
@@ -25,12 +24,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         asistencia.cpp \
-    configuracion.cpp
+    configuracion.cpp \
+    usuarios.cpp
 
 HEADERS  += asistencia.h \
-    configuracion.h
+    configuracion.h \
+    usuarios.h
 
 FORMS    += asistencia.ui \
-    configuracion.ui
+    configuracion.ui \
+    usuarios.ui
 
 RESOURCES +=
